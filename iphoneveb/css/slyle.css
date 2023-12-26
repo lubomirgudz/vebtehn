@@ -1,0 +1,351 @@
+a{
+   text-decoration: none;
+   color: inherit;
+ }
+
+ ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-weight: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #0a0a0a;
+ }
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-color: #0a0a0a;
+    padding: 20px 0; 
+    font-size: 24px;
+    line-height: 29px; 
+    color: #717171;
+}
+
+    
+
+
+    .containner{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .menu{
+        display: flex;
+    }
+
+    .menu-item{
+       padding-right: 30px;
+    }
+
+    .menu-link:hover {
+        color: goldenrod; 
+        text-decoration: underline; 
+    }
+    .headline-img,.headline-btn{
+        width: 600px; 
+        height: auto; 
+        display: block; 
+        margin: 0 auto
+    }
+
+    .logo-img{
+        display: flex;
+        justify-content: center ;
+        width: 35px; 
+        height: auto; 
+        padding: 0 0 0 auto;
+        margin-right: 100px;
+    }
+    .headline {
+        background-color: #f5f5f7;
+        text-align: center;
+        padding: 70px 0 40px;
+    }
+
+    .title{
+        text-transform: uppercase;
+        margin: 0 0 40px;
+        color: goldenrod;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 77px;
+    }
+
+    .headline-img{
+        margin-bottom: 25px;
+    }
+
+    .headline-btn{
+        display: inline-block;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: uppercase;
+        color: #ffff;
+        background-color: goldenrod;
+        padding: 22px 117px 19px;
+        border-radius: 30px;
+    }
+
+    .new{
+        padding: 90px 240px 150px;
+    }
+      
+    .newtitle,
+    .color-title{
+        margin: 0 0 50px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #717171;
+    }
+    .images-new{
+        width: 400px; 
+        height: auto; 
+        display: block; 
+        margin: 0 auto
+    }
+
+    .img-color{
+        width: 200px; 
+        height: auto; 
+        display: block; 
+        margin: 0 auto
+    }
+
+   .color-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 100px 100px 100px;
+   }
+
+   .contacts-inner{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 100px 100px 100px;
+    background-color: goldenrod;
+    color: #717171
+   }
+
+   .iphonecont{
+    width: 400px;
+    margin: 32px 100px 100px 100px;
+    margin-bottom: 30px;
+   }
+
+   .contacts-form{
+    width: 100%;
+    padding: 78px 85px;
+   }
+
+   .contacts-title{
+    margin: 0 0 60px;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 39px;
+   }
+
+   .contacts-input{
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: goldenrod;
+   }
+   .contacts-input::placeholder{
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    opacity: 50%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+   }
+   .contacts-form p{
+    opacity: 50%;
+    text-align: center;
+    margin: 30px 0;
+   }
+
+   .contacts-form button{
+    border: none;
+    text-transform: uppercase;
+    color: goldenrod;
+    background-color: #f5f5f7;
+    border-radius: 30px;
+    padding: 16px 81px;
+    font-weight: 400;
+    cursor: pointer;
+
+   }
+   .iphonecont{
+    border-radius: 30px;
+   }
+
+  .footer{
+    background-color: #0a0a0a;
+    
+
+  }
+
+  .footer-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    color: #717171
+  }
+
+  .hamburger {
+    display: none; 
+    font-size: 30px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: goldenrod;
+  }
+
+  .inst{
+    margin-right: 200px;
+        
+  }
+
+  .footer .inst, .footer .phone1 {
+    padding: 20px; 
+    margin: 5px; 
+    display: inline-block; 
+}
+
+
+.footer .inst {
+    margin-left: 200px; 
+}
+
+.footer .phone1 {
+    margin-right: 200px; 
+}
+.logo-img1{
+    display: flex;
+    justify-content: center ;
+    width: 35px; 
+    height: auto; 
+    padding: 0 0 0 auto;
+    margin-left: 105px;
+}
+
+
+  @media screen and (max-width: 768px) {
+    /* АДАПТИВ  */
+    /* хедер і нав */
+    .hamburger {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        background: none;
+        border: none;
+        color: #fff;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .nav.active ul {
+        display: flex;
+    }
+
+    .menu-item {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .nav, .containner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo-img {
+        align-self: center;
+        width: 25px; 
+    }
+
+    /* розмір тексту */
+    .title, .new-title, .color-title, .contacts-title {
+        font-size: 50px; 
+        line-height: 50px;
+        margin: 5px 7px 7px 5px;
+    }
+
+    .color-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .color-list li {
+        width: 100%; 
+        text-align: center; 
+        margin-bottom: 20px; 
+    }
+
+    .img-color {
+        width: 80%; 
+        height: auto; 
+        margin-bottom: 10px; 
+    }
+
+    .headline-img, {
+        align-self: center; 
+        
+    }
+
+    .images-new, .img-color, .iphonecont {
+        width: 70%; 
+        max-width: 240px; 
+        height: 50%; 
+        margin: 20px 10px 5px 10px; 
+    }
+
+    /* кнопкі розмір */
+    .headline-btn, .contacts-form button {
+        padding: 10px 30px; 
+        font-size: 18px; 
+    }
+
+    
+    .contacts-input {
+        font-size: 12px; 
+    }
+
+   
+    .footer-inner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .phone1, .inst {
+        margin: 10px; 
+
+   
+    
